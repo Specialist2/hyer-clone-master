@@ -1,8 +1,6 @@
-* {
-  width: auto;
-}
 body {
   margin: 0px;
+  padding: 0;
 }
 header {
   display: flex;
@@ -360,14 +358,10 @@ p {
 }
 .footer {
   display: flex;
-  position: relative;
+  width: 80%;
+  margin: 0 auto;
 }
-.footer ul {
-  list-style-type: none;
+.foot-1 {
   display: flex;
-  width: 100%;
-}
-.footer ul li {
-  background-color: red;
-  display: inline-block;
+  flex-direction: column;
 }
