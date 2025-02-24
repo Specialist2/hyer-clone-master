@@ -1,5 +1,4 @@
 * {
-  margin: 0px;
   width: auto;
 }
 body {
@@ -37,7 +36,7 @@ header img {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  height: 50px;
+  height: 60px;
 
   button {
     border-radius: 30px;
@@ -90,6 +89,7 @@ header img {
   .img1 {
     margin-left: 40px;
     margin-bottom: 50px;
+
     gap: 60px;
   }
 
@@ -330,7 +330,7 @@ p {
   gap: 10px;
   justify-content: space-between;
   flex-direction: row;
-  height: 150px;
+
   ul {
     list-style-type: none;
     display: flex;
@@ -358,9 +358,16 @@ p {
   font-family: inherit;
   height: 10px;
 }
-.section13 {
+.footer {
+  display: flex;
+  position: relative;
+}
+.footer ul {
+  list-style-type: none;
+  display: flex;
   width: 100%;
-  min-height: 100vh;
-  padding: 20px;
-  box-sizing: border-box;
+}
+.footer ul li {
+  background-color: red;
+  display: inline-block;
 }
