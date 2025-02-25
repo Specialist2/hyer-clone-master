@@ -360,8 +360,39 @@ p {
   display: flex;
   width: 80%;
   margin: 0 auto;
+  list-style-type: none;
+  margin-bottom: 10px;
+  gap: 50px;
+  li {
+    color: rgb(83, 80, 80);
+    font-weight: bold;
+  }
+  p {
+    color: grey;
+  }
 }
 .foot-1 {
   display: flex;
   flex-direction: column;
+  a {
+    color: grey;
+    text-decoration: none;
+    line-height: 30px;
+  }
+}
+.foot-2 a {
+  color: grey;
+  text-decoration: none;
+  line-height: 30px;
+}
+.foot-3 a {
+  color: grey;
+  text-decoration: none;
+}
+.foot-4 img {
+  height: 50px;
+  padding: 5px;
+}
+.foot-5 .email {
+  padding: 15px;
 }
